@@ -48,7 +48,7 @@ as you now see port 22 is running the ssh service with the software OpenSSH 4.7p
 
 
 
-If we go to the nest vulnerability database and open a search on SSH there's over 100 vulnerabilities for SSH. Now we can review these vulnerabilities and make sure that we have the correct patches applied to open SSH
+If we go to the NIST vulnerability database and open a search on SSH there's over 100 vulnerabilities for SSH. Now we can review these vulnerabilities and make sure that we have the correct patches applied to open SSH
 <img width="1560" height="232" alt="nist" src="https://github.com/user-attachments/assets/75d21158-746a-460c-8a88-47d366c71460" />
 
 
