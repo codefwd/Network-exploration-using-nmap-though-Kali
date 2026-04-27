@@ -5,7 +5,7 @@ Network exploration by searching networks and investigate any hosts we find
 
 Nmap offers many methods for network exploration. Zenmap is the GUI version of nmap. In this demonstration I’ll be using nmap in Kali on a virtual machine.
 Nmap's main purpose is to search networks and investigate any hosts it finds. Either TCP or UDP protocols can be used for scanning. 
-It can use a supply of usernames and passwords to get access to services, or it can employ brute force by guessing its way in.
+It can also be used to supply usernames and passwords to get access to services, or it can employ brute force by guessing its way in, but i will not perform that in this demonstration. 
 
 ## Let's start
 The help section shown below makes it clear that there are many things you can perform with nmap. 
@@ -59,4 +59,4 @@ nmap shows four UPD ports that are open and the three open|filtered ports are un
 
 # In closing
 
-Nmap is a powerful and versatile tool for network exploration and security assessment. With its ability to scan networks, identify active hosts, and analyze services using either TCP or UDP protocols, it provides valuable insight into network environments. The availability of Zenmap as the graphical interface makes these features more accessible for users who prefer a GUI. As demonstrated using Kali Linux on a virtual machine, Nmap can also test authentication methods through supplied credentials or brute-force techniques.
+Nmap is a powerful and versatile tool for network exploration and security assessment. With its ability to scan networks, identify active hosts, and analyze services using either TCP or UDP protocols, it provides valuable insight into network environments. The availability of Zenmap as the graphical interface makes these features more accessible for users who prefer a GUI.
