@@ -46,3 +46,6 @@ By using the –sV option, nmap will identify a version of software being used f
 
 as you now see port 22 is running the ssh service with the software OpenSSH 4.7p1
 
+# In closing
+
+Nmap is a powerful and versatile tool for network exploration and security assessment. With its ability to scan networks, identify active hosts, and analyze services using both TCP and UDP protocols, it provides valuable insight into network environments. The availability of Zenmap as the graphical interface makes these features more accessible for users who prefer a GUI, while the command-line version offers greater flexibility and control. As demonstrated using Kali Linux on a virtual machine, Nmap can also test authentication methods through supplied credentials or brute-force techniques.
