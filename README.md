@@ -8,3 +8,15 @@ It can find hosts in a variety of ways. It has several methods for scanning. It 
 
 
 <img width="674" height="706" alt="nmap help" src="https://github.com/user-attachments/assets/12ee6624-189c-4ffe-8cab-8e48f3d7ae3d" />
+
+
+Let us find out which hosts are on my network using nmap. The command is as follows:
+
+$sudo nmap -sn  10.0.2.0/24 
+
+-sn is used for host discovery only. I'm skipping port scan and the range is a /24 subnet
+
+Nmap provides the host's MAC address in addition to the IP address of the host that responded. Here are four outcomes.
+
+
+<img width="557" height="317" alt="nmap pic" src="https://github.com/user-attachments/assets/f7f87776-2c58-44bb-af1d-25a94733a7e4" />
