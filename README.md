@@ -30,7 +30,8 @@ We are using the -PS to see what TCP service are running:
 
 $sudo nmap -PS 10.0.2.5
 
-Nmap checks the most common ports to see if they're open on the host 
-It does this by starting a connection to the service and then closing it down before the connection is completed. It’s called TCP syn ping.
+Nmap checks the most common ports to see if they're open on the host.  It does this by starting a connection to the service and then closing it down before the connection is completed. It’s called TCP syn ping.
+You can see by the results that metasploitable has quite a number of ports open:
 
-You can see by the results that metasploitable has quite a number of ports open
+
+<img width="569" height="553" alt="tcp service running" src="https://github.com/user-attachments/assets/1e9ca32b-0192-4e13-a627-439f9d741ad2" />
