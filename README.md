@@ -16,7 +16,7 @@ It can find hosts in a variety of ways. It has several methods for scanning. It 
 
 Let us find out which hosts are on my network using nmap. The command is as follows:
 
-$sudo nmap -sn  10.0.2.0/24 
+$sudo nmap -sn  10.0.2.0/24
 
 -sn is used for host discovery only. I'm skipping port scan and the host range i'm searching is a /24 subnet
 
@@ -37,10 +37,9 @@ You can see by the results that metasploitable has quite a number of ports open:
 
 <img width="569" height="553" alt="tcp service running" src="https://github.com/user-attachments/assets/1e9ca32b-0192-4e13-a627-439f9d741ad2" />
 
-
 Let's now use nmap with an individual service. The SSH service.
+
 $ sudo nmap -PS -sV -p 22 10.0.2.5
+
 By using the –sV option, nmap will identify a version of software being used for the service. I’ll limit the testing by using one service by using the –P option
-
-
 <img width="628" height="257" alt="service" src="https://github.com/user-attachments/assets/1aac6861-3775-4e4e-8189-8efd28a34e00" />
