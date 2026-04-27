@@ -1,3 +1,4 @@
+<img width="540" height="258" alt="UDP serach" src="https://github.com/user-attachments/assets/72b36505-fbc5-4e29-ad1f-9683ca8dfcaa" />
 # Network exploration using nmap though Kali
 Network exploration by searching networks and investigate any hosts we find
 ## Overview
@@ -51,9 +52,10 @@ If we go to the NIST vulnerability database and open a search on SSH there's ove
 
 We can also use nmap to check for UDP services by using the -sU option. The -F is used to limit the amount of ports checked 
 
-sudo nmap -sU -F 10.0.2.5
 
- 
+sudo nmap -sU -F 10.0.2.5
+<img width="540" height="258" alt="UDP serach" src="https://github.com/user-attachments/assets/5222e161-c3e5-454c-9e4c-d420cac95d40" />
+nmap shows four UPD ports that are open and the three open|filtered ports are undetermined.
 
 # In closing
 
