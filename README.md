@@ -43,3 +43,6 @@ $ sudo nmap -PS -sV -p 22 10.0.2.5
 
 By using the –sV option, nmap will identify a version of software being used for the service. I’ll limit the testing by using one service by using the –P option
 <img width="628" height="257" alt="service" src="https://github.com/user-attachments/assets/1aac6861-3775-4e4e-8189-8efd28a34e00" />
+
+as you now see port 22 is running the ssh service with the software OpenSSH 4.7p1
+
