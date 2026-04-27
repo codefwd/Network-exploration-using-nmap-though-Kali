@@ -1,4 +1,4 @@
-<img width="540" height="258" alt="UDP serach" src="https://github.com/user-attachments/assets/72b36505-fbc5-4e29-ad1f-9683ca8dfcaa" />
+
 # Network exploration using nmap though Kali
 Network exploration by searching networks and investigate any hosts we find
 ## Overview
